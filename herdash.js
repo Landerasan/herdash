@@ -172,6 +172,9 @@ const o = {
     },
     nth(array, n=0){
         return (n >= 0) ? array[n] : array[array.length + n] 
+    },
+    pull(){
+        
     }
 
 }
